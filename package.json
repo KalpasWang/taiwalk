@@ -11,9 +11,13 @@
   },
   "dependencies": {
     "@element-plus/nuxt": "^1.0.8",
+    "@nuxtjs/google-fonts": "^3.2.0",
     "element-plus": "^2.6.3",
     "nuxt": "^3.11.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "sass": "^1.75.0"
   }
 }
