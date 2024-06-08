@@ -7,7 +7,7 @@ $-colors: (
     "light-9": #e6e6e6,
   ),
   "success": (
-    "base": #67c23a,
+    "base": #e0da48,
   ),
   "warning": (
     "base": #e6a23c,
@@ -20,6 +20,7 @@ $-colors: (
   ),
   "info": (
     "base": #909399,
+    "light-3": #f9f9f9,
   ),
 );
 
@@ -34,4 +35,8 @@ $-text-color: (
 @forward "element-plus/theme-chalk/src/common/var.scss" with (
   $colors: $-colors,
   $text-color: $-text-color
+);
+
+$form-item-margin-bottom: (
+  "default": 8px,
 );

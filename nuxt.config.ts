@@ -1,6 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  nitro: {
+    devProxy: {
+      host: "localhost",
+    },
+  },
   modules: ["@element-plus/nuxt", "@nuxtjs/google-fonts"],
   css: ["~/assets/index.scss"],
   vite: {

@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <NuxtLink to="/">
+  <NuxtLink to="/" class="logo__link">
     <svg
       width="241"
       height="32"
@@ -81,4 +81,10 @@
   </NuxtLink>
 </template>
 
-<style scoped></style>
+<style scoped>
+.logo__link {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+</style>
