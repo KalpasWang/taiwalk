@@ -2,19 +2,19 @@
 
 <template>
   <div>
-    <div class="mobileMenu__container">
+    <nav class="mobileMenu__container">
       <IconsLogoMobile />
       <IconsMenu class="mobileMenu__menuIcon" />
-    </div>
+    </nav>
     <Teleport to="body">
-      <div class="mobileMenu__fixedMenu">
+      <aside class="mobileMenu__fixedMenu">
         <div class="mobileMenu__overlay"></div>
         <ul role="menubar" class="mobileMenu__list">
           <li role="menuitem" class="mobileMenu__item">探索景點</li>
           <li role="menuitem" class="mobileMenu__item">節慶活動</li>
           <li role="menuitem" class="mobileMenu__item">品嚐美食</li>
         </ul>
-      </div>
+      </aside>
     </Teleport>
   </div>
 </template>
