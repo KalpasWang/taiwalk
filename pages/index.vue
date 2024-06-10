@@ -1,8 +1,7 @@
-<script lang="ts" setup></script>
-
 <template>
   <div>
     <Banner />
+    <Carousel />
   </div>
 </template>
 
