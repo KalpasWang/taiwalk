@@ -2,6 +2,7 @@
   <div>
     <Banner />
     <Carousel />
+    <RecentEvents />
   </div>
 </template>
 
